@@ -28,17 +28,15 @@ The project focuses on building this datapath in synthesizable Verilog, paramete
 
 | Folder / File | Description |
 |---|---|
-| `RTL/pipe_reg.v` | Generic pipeline register with optional bypass, clock enable, and sync/async reset. |
-| `RTL/mux4.v` | Parameterizable 4-to-1 multiplexer, used for both the X and Z muxes. |
-| `RTL/preadder_sub.v` | Pre-adder/subtracter (`D +/- B`). |
-| `RTL/postadder_sub.v` | Post-adder/subtracter (`Z +/- (X + CIN)`) with carry out. |
-| `RTL/dsp48a1_top.v` | Top-level `DSP48A1` module that connects all submodules. |
-| `Testbench/dsp48a1_tb_.v` | Self-checking testbench with directed test patterns. |
-| `Scripts/run_.do` | QuestaSim script: compile, simulate, and add waves. |
-| `Constraints/constraints_1.xdc` | Timing constraint: 100 MHz clock on pin W5. |
-| `Ahmed_Mohamed_Khalafallah_Project1.pdf` | Full project report. |
-
-*Folder names may vary depending on the final repository structure.*
+| `pipe_reg.v` | Generic pipeline register with optional bypass, clock enable, and sync/async reset. |
+| `mux4.v` | Parameterizable 4-to-1 multiplexer, used for both the X and Z muxes. |
+| `preadder_sub.v` | Pre-adder/subtracter (`D +/- B`). |
+| `postadder_sub.v` | Post-adder/subtracter (`Z +/- (X + CIN)`) with carry out. |
+| `dsp48a1_top.v` | Top-level `DSP48A1` module that connects all submodules. |
+| `dsp48a1_tb_.v` | Self-checking testbench with directed test patterns. |
+| `run_.do` | QuestaSim script: compile, simulate, and add waves. |
+| `constraints_1.xdc` | Timing constraint: 100 MHz clock on pin W5. |
+| `Project1_DSP48A1.pdf` | Full project report. |
 
 ## Design Flow
 
