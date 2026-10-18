@@ -5,7 +5,7 @@ Verilog HDL implementation of the Spartan-6 DSP48A1 arithmetic slice. The design
 
 The design was verified with a self-checking testbench in QuestaSim, then taken through the Vivado flow (elaboration, synthesis, and implementation) on an Artix-7 device with a 100 MHz clock constraint.
 
-**[Open the full project report (PDF)](Ahmed_Mohamed_Khalafallah_Project1.pdf)**
+**[Open the full project report (PDF)](Project1_DSP48A1.pdf)**
 
 ## Project Overview
 
