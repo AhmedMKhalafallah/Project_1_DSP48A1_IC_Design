@@ -94,7 +94,6 @@ Questa Lint reported 5 informational/style items (constant condition, repeated p
 
 See the full PDF report for the RTL code, testbench, do file, QuestaSim waveforms, constraint file, elaboration, synthesis, and implementation results, and the linting screenshots.
 
-**Project Type:** Individual Project
 
 ## Author
 
